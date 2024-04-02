@@ -10,7 +10,7 @@
 
 > Below is a picture of a SpaceX rocket launch I took from Black's Beach.
 
-![Image](https://imgur.com/a/K4bLghT)
+![Image](https://i.imgur.com/hDYHvjn.jpg)
 
 * I think the colors in the image above are very pretty.
 
