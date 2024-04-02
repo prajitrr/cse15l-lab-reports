@@ -6,7 +6,7 @@
 
 ## Here is a heading in the Heading 2 format!
 
-![Here's a link to this webpage.](https://prajitrr.github.io/cse15l-lab-reports/)
+[Here's a link to this webpage.](https://prajitrr.github.io/cse15l-lab-reports/)
 
 > Below is a picture of a SpaceX rocket launch I took from Black's Beach.
 
