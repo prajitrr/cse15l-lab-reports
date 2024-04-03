@@ -1,5 +1,6 @@
 # Lab Report 1
 *Prajit Rajkumar*
+
 *PID: A17800027*
 
 ## Examples of the `cd` command:
