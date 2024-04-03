@@ -93,8 +93,8 @@
       cat: messages: Is a directory
       ```
    2. The absolute path to the working directory when the command was run was `/Users/prajitrajkumar/lecture1`.
-   3. f
-   4. The output produced is indeed an error 
+   3. This output
+   4. The output produced is indeed an error because it results in a clear error message that states `cat: messages: Is a directory`, a message that indicates that the `messages` directory does not have file contents that can be printed, since it is a directory. No output in terms of printing file content is produced, as opposed to the `cat` command's expected behavior of printing file contents.
 3. With a file as an argument:
    1. ```
       prajitrajkumar@tuyihkj31798euoij831 lecture1 % pwd        
