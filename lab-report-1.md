@@ -2,6 +2,7 @@
 
 ## Examples of the `cd` command:
 1. With no arguments:
+
 a.
 ```
 prajitrajkumar@tuyihkj31798euoij831 lecture1 % pwd
@@ -11,8 +12,10 @@ prajitrajkumar@tuyihkj31798euoij831 ~ % pwd
 /Users/prajitrajkumar
 ```
 b. The absolute path to the working directory when the command was run was `/Users/prajitrajkumar/lecture1`.
+
 c. This output was produced because using `cd` without any arguments redirects the working directory to the home directory, as the 
    default directory when no arguments are provided is indeed the home directory.
+   
 d. This output is not an error, because using `cd` without an argument simply redirects the user to the default 
    directory, the home directory, which is supposed to happen since the default directory is the home directory.
 
