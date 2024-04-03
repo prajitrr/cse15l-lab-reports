@@ -49,38 +49,34 @@
 
 ## Examples of the `ls` command:
 1. With no arguments:
-   a. 
+   1.
    ```
    prajitrajkumar@tuyihkj31798euoij831 lecture1 % pwd
    /Users/prajitrajkumar/lecture1
    prajitrajkumar@tuyihkj31798euoij831 lecture1 % ls
    Hello.class     Hello.java      README          messages
    ```
-   b. The absolute path to the working directory when the command was run was `/Users/prajitrajkumar/lecture1`.
+   2. The absolute path to the working directory when the command was run was `/Users/prajitrajkumar/lecture1`.
 2. With a directory as an argument:
-   a.
-   ```
-   ```
-   b. The absolute path to the working directory when the command was run was `/Users/prajitrajkumar/lecture1`.
+   1. ```
+      ```
+   2. The absolute path to the working directory when the command was run was `/Users/prajitrajkumar/lecture1`.
 3. With a file as an argument:
-   a.
-   ```
-   ```
-   b. The absolute path to the working directory when the command was run was `/Users/prajitrajkumar/lecture1`.
+   1. ```
+      ```
+   2. The absolute path to the working directory when the command was run was `/Users/prajitrajkumar/lecture1`.
 
 ## Examples of the `cat` command:
 1. With no arguments:
-   a. 
-   ```
-   ```
+   a. ```
+      ```
    b. The absolute path to the working directory when the command was run was `/Users/prajitrajkumar/lecture1`.
 2. With a directory as an argument:
-   a.
-   ```
-   ```
-   b. The absolute path to the working directory when the command was run was `/Users/prajitrajkumar/lecture1`.
+   1. ```
+      
+      ```
+   2. The absolute path to the working directory when the command was run was `/Users/prajitrajkumar/lecture1`.
 3. With a file as an argument:
-   a.
-   ```
-   ```
-   b. The absolute path to the working directory when the command was run was `/Users/prajitrajkumar/lecture1`.
+   1. ```
+      ```
+   2. The absolute path to the working directory when the command was run was `/Users/prajitrajkumar/lecture1`.
