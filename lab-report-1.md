@@ -2,8 +2,7 @@
 
 ## Examples of the `cd` command:
 1. With no arguments:
-
-    a.
+    1.
     ```
     prajitrajkumar@tuyihkj31798euoij831 lecture1 % pwd
     /Users/prajitrajkumar/lecture1
@@ -11,16 +10,16 @@
     prajitrajkumar@tuyihkj31798euoij831 ~ % pwd
     /Users/prajitrajkumar
     ```
-    b. The absolute path to the working directory when the command was run was `/Users/prajitrajkumar/lecture1`.
+    2. The absolute path to the working directory when the command was run was `/Users/prajitrajkumar/lecture1`.
 
-    c. This output was produced because using `cd` without any arguments redirects the working directory to the home directory, as 
+    3. This output was produced because using `cd` without any arguments redirects the working directory to the home directory, as 
        the default directory when no arguments are provided is indeed the home directory.
    
-    d. This output is not an error, because using `cd` without an argument simply redirects the user to the default 
+    4. This output is not an error, because using `cd` without an argument simply redirects the user to the default 
        directory, the home directory, which is supposed to happen since the default directory is the home directory.
 
 2. With a directory as an argument:
-    a.
+    1.
     ```
     prajitrajkumar@tuyihkj31798euoij831 lecture1 % pwd
     /Users/prajitrajkumar/lecture1
@@ -28,11 +27,11 @@
     prajitrajkumar@tuyihkj31798euoij831 messages % pwd
     /Users/prajitrajkumar/lecture1/messages
     ```
-   b. The absolute path to the working directory when the command was run was `/Users/prajitrajkumar/lecture1`.
-   c. This output was produced because using `cd` with a directory as an argument, given that the directory 
+   2. The absolute path to the working directory when the command was run was `/Users/prajitrajkumar/lecture1`.
+   3. This output was produced because using `cd` with a directory as an argument, given that the directory 
       or path to the directory is present within the working directory, directs the working directory to the specified directory.
       This is the inherent purpose of `cd`.
-   d. This output is not an error, because using `cd` with an argument that is a directory present within a working directory 
+   4. This output is not an error, because using `cd` with an argument that is a directory present within a working directory 
       correctly redirects the user to the directory present, which is the purpose of the command, and this is what happened in this 
       case. If the directory was not present, then an error would likely result.
 
