@@ -10,22 +10,19 @@
         /Users/prajitrajkumar
         ```
     2. The absolute path to the working directory when the command was run was `/Users/prajitrajkumar/lecture1`.
-
     3. This output was produced because using `cd` without any arguments redirects the working directory to the home directory, as 
        the default directory when no arguments are provided is indeed the home directory.
-   
     4. This output is not an error, because using `cd` without an argument simply redirects the user to the default 
        directory, the home directory, which is supposed to happen since the default directory is the home directory.
 
 2. With a directory as an argument:
-    1.
-    ```
-    prajitrajkumar@tuyihkj31798euoij831 lecture1 % pwd
-    /Users/prajitrajkumar/lecture1
-    prajitrajkumar@tuyihkj31798euoij831 lecture1 % cd messages
-    prajitrajkumar@tuyihkj31798euoij831 messages % pwd
-    /Users/prajitrajkumar/lecture1/messages
-    ```
+    1. ```
+       prajitrajkumar@tuyihkj31798euoij831 lecture1 % pwd
+       /Users/prajitrajkumar/lecture1
+       prajitrajkumar@tuyihkj31798euoij831 lecture1 % cd messages
+       prajitrajkumar@tuyihkj31798euoij831 messages % pwd
+       /Users/prajitrajkumar/lecture1/messages
+       ```
    2. The absolute path to the working directory when the command was run was `/Users/prajitrajkumar/lecture1`.
    3. This output was produced because using `cd` with a directory as an argument, given that the directory 
       or path to the directory is present within the working directory, directs the working directory to the specified directory.
