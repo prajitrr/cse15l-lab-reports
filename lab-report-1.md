@@ -82,14 +82,28 @@
       
       ```
    2. The absolute path to the working directory when the command was run was `/Users/prajitrajkumar/lecture1`.
-   3. This output, which is no output along with the `cat` command appearing to run indefinitely was produced because the purpose of `cat` is to print out the contents of a file. If no file is specified, `cat` cannot print out the contents of any file, a
-   4. The produced is indeed an error because it
+   3. This output, which is no output along with the `cat` command appearing to run indefinitely was produced because the purpose of `cat` is to print out the contents of a file. If no file is specified, `cat` cannot print out the contents of any file, and it thus does not produce any output.
+   4. The output produced is indeed an error because it results in the system running on the single `cat` command indefinitely and not allowing for further input, which means that the terminal needs to be killed and restarted in order to provide new inputs, a clear example of an error as this is undesired behavior.
 2. With a directory as an argument:
    1. ```
-      
+      prajitrajkumar@tuyihkj31798euoij831 lecture1 % pwd
+      /Users/prajitrajkumar/lecture1
+      prajitrajkumar@tuyihkj31798euoij831 lecture1 % cat messages
+      cat: messages: Is a directory
       ```
    2. The absolute path to the working directory when the command was run was `/Users/prajitrajkumar/lecture1`.
+   3. f
+   4. The output produced is indeed an error 
 3. With a file as an argument:
    1. ```
+      prajitrajkumar@tuyihkj31798euoij831 lecture1 % pwd        
+      /Users/prajitrajkumar/lecture1
+      prajitrajkumar@tuyihkj31798euoij831 lecture1 % cat README
+      To use this program:
+      
+      javac Hello.java
+      java Hello messages/en-us.txt
       ```
    2. The absolute path to the working directory when the command was run was `/Users/prajitrajkumar/lecture1`.
+   3. a
+   4. The output produced is not an error.
