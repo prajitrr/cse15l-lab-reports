@@ -32,19 +32,18 @@
       case. If the directory was not present, then an error would likely result.
 
 3. With a file as an argument:
-   a. 
-   ```
-   prajitrajkumar@tuyihkj31798euoij831 lecture1 % pwd     
-   /Users/prajitrajkumar/lecture1
-   prajitrajkumar@tuyihkj31798euoij831 lecture1 % cd Hello.java
-   cd: not a directory: Hello.java
-   prajitrajkumar@tuyihkj31798euoij831 lecture1 % pwd
-   /Users/prajitrajkumar/lecture1
-   ```
-   b. The absolute path to the working directory when the command was run was `/Users/prajitrajkumar/lecture1`.
-   c. This output was produced because using `cd` with a file as an argument cannot navigate to the file, given that `cd` is used 
+   1. ```
+      prajitrajkumar@tuyihkj31798euoij831 lecture1 % pwd     
+      /Users/prajitrajkumar/lecture1
+      prajitrajkumar@tuyihkj31798euoij831 lecture1 % cd Hello.java
+      cd: not a directory: Hello.java
+      prajitrajkumar@tuyihkj31798euoij831 lecture1 % pwd
+      /Users/prajitrajkumar/lecture1
+      ```
+   2. The absolute path to the working directory when the command was run was `/Users/prajitrajkumar/lecture1`.
+   3. This output was produced because using `cd` with a file as an argument cannot navigate to the file, given that `cd` is used 
       for navigating to directories, and files do not themselves have a navigatable directory that can be accessed.
-   d. This output is indeed an error. It is an error because the `cd` command can only navigate to directories, so attempting to
+   4. This output is indeed an error. It is an error because the `cd` command can only navigate to directories, so attempting to
       navigate to a file produces an error, as a file does not have a tree of directory elements that stores other files or 
       directories.
 
