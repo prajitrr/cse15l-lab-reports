@@ -49,13 +49,12 @@
 
 ## Examples of the `ls` command:
 1. With no arguments:
-   1.
-   ```
-   prajitrajkumar@tuyihkj31798euoij831 lecture1 % pwd
-   /Users/prajitrajkumar/lecture1
-   prajitrajkumar@tuyihkj31798euoij831 lecture1 % ls
-   Hello.class     Hello.java      README          messages
-   ```
+   1. ```
+      prajitrajkumar@tuyihkj31798euoij831 lecture1 % pwd
+      /Users/prajitrajkumar/lecture1
+      prajitrajkumar@tuyihkj31798euoij831 lecture1 % ls
+      Hello.class     Hello.java      README          messages
+      ```
    2. The absolute path to the working directory when the command was run was `/Users/prajitrajkumar/lecture1`.
 2. With a directory as an argument:
    1. ```
@@ -68,9 +67,9 @@
 
 ## Examples of the `cat` command:
 1. With no arguments:
-   a. ```
+   1. ```
       ```
-   b. The absolute path to the working directory when the command was run was `/Users/prajitrajkumar/lecture1`.
+   2. The absolute path to the working directory when the command was run was `/Users/prajitrajkumar/lecture1`.
 2. With a directory as an argument:
    1. ```
       
