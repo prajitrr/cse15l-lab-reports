@@ -93,7 +93,7 @@
       cat: messages: Is a directory
       ```
    2. The absolute path to the working directory when the command was run was `/Users/prajitrajkumar/lecture1`.
-   3. This output
+   3. This output was produced because the `cat` command is used to print the text content of files, and `messages` is a directory and thus has no text content to print. Instead, the system warns the user that `messages` is a directory.
    4. The output produced is indeed an error because it results in a clear error message that states `cat: messages: Is a directory`, a message that indicates that the `messages` directory does not have file contents that can be printed, since it is a directory. No output in terms of printing file content is produced, as opposed to the `cat` command's expected behavior of printing file contents.
 3. With a file as an argument:
    1. ```
@@ -106,5 +106,5 @@
       java Hello messages/en-us.txt
       ```
    2. The absolute path to the working directory when the command was run was `/Users/prajitrajkumar/lecture1`.
-   3. a
+   3. This output was produced because the purpose of the `cat` command is to print file contents, and `README` is an existing file within the `lecture1` directory whose file contents can thus be accessed and printed by the `cat` command; the text contents of `README` are what is then displayed. 
    4. The output produced is not an error.
