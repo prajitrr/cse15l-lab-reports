@@ -118,6 +118,7 @@ Screenshot 1:
 1. a
 2. a
 3. a
+
 Screenshot 2:
 
 ![Image](./chatserver2.png)
@@ -125,19 +126,25 @@ Screenshot 2:
 1. a
 2. a
 3. a
+
 Result:
 
 ![Image](./chatserver5.png)
 
 
 ## Part 2
-Private Key (from local):
-![Image](./privatekey.png)
-Public Key (from server):
-![Image](./publickey.png)
-Passwordless Login to Server:
-![Image](./login.png)
 
+Private Key (from local):
+
+![Image](./privatekey.png)
+
+Public Key (from server):
+
+![Image](./publickey.png)
+
+Passwordless Login to Server:
+
+![Image](./login.png)
 
 
 ## Part 3
