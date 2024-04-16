@@ -111,4 +111,27 @@ class ChatServer {
 }
 ```
 
+Screenshot 1:
+![Image](./chatserver2.png)
+1. 
+2. 
+3. 
+Screenshot 2:
+![Image](./chatserver2.png)
+1.
+2. 
+3. 
+Result:
 ![Image](./chatserver5.png)
+
+## Part 2
+Private Key (from local):
+![Image](./privatekey.png)
+Public Key (from server):
+![Image](./publickey.png)
+Passwordless Login to Server:
+![Image](./login.png)
+
+
+
+## Part 3
