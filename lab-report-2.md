@@ -112,17 +112,23 @@ class ChatServer {
 ```
 
 Screenshot 1:
+
 ![Image](./chatserver2.png)
-1. 
-2. 
-3. 
+
+1. a
+2. a
+3. a
 Screenshot 2:
+
 ![Image](./chatserver2.png)
-1.
-2. 
-3. 
+
+1. a
+2. a
+3. a
 Result:
+
 ![Image](./chatserver5.png)
+
 
 ## Part 2
 Private Key (from local):
