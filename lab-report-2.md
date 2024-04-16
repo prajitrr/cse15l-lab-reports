@@ -121,7 +121,7 @@ Screenshot 1:
 
 Screenshot 2:
 
-![Image](./chatserver2.png)
+![Image](./chatserver4.png)
 
 1. a
 2. a
