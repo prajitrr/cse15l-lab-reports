@@ -115,17 +115,17 @@ Screenshot 1:
 
 ![Image](./chatserver2.png)
 
-1. a
-2. a
-3. a
+1. The methods that are called are the methods handle() and handleRequest().
+2. The argument to handleRequest() is the URL, http://localhost:2901/add-message?s=My name is Prajit&user=Prajit. handle() uses the same argument.
+3. After this query, the String chat_history gets the message Prajit: My name is Prajit\n appended to it.
 
 Screenshot 2:
 
 ![Image](./chatserver4.png)
 
-1. a
-2. a
-3. a
+1. The methods that are called are the methods handle() and handleRequest().
+2. The argument to handleRequest() is the URL, http://localhost:2901/add-message?s=Hello! Prajit! Welcome!&user=bot. handle() uses the same argument.
+3. After this query, the String chat_history gets the message bot: Hello! Prajit! Welcome!\n appended to it.
 
 Result:
 
@@ -148,3 +148,4 @@ Passwordless Login to Server:
 
 
 ## Part 3
+Something that I learned from lab in Week 3 that I didn't know before was how to set up the automatic authentication for server login using SSH. I volunteer in a research laboratory, and before this, I was connecting to remote servers to access compute resources by manually entering the password in each time. Now, I know that I can use the preset SSH authentication to speed up the login process.
