@@ -25,7 +25,7 @@ public class ArrayTests {
 }
 ```
 3. Symptom:
-
+![Image](./run.png)
 5. Buggy and Fixed Code:
 Buggy Code:
 ```
