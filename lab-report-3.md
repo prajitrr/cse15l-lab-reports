@@ -12,6 +12,7 @@ public class ArrayTests {
 	}
 }
 ```
+
 2. Input that Passes:
 ```
 public class ArrayTests {
@@ -23,10 +24,13 @@ public class ArrayTests {
 	}
 }
 ```
+
 3. Symptom:
 ![Image](./run.png)
-5. Buggy and Fixed Code:
+
+4. Buggy and Fixed Code:
 Buggy Code:
+
 ```
 public class ArrayExamples {
 
@@ -38,7 +42,9 @@ public class ArrayExamples {
   }
 }
 ```
+
 Fixed Code:
+
 ```
 public class ArrayExamples {
 
@@ -54,12 +60,13 @@ public class ArrayExamples {
   }
 }
 ```
+
 5. Bug Fix Reasoning:
 The fix addresses the issue because without the fix, the second half of the array's elements will not be set to the first half, since the first half will have been overwritten by the second half. Instead, the fix stores a copy of the array, so that the reversal can be performed by iterating over the copy and setting the original array to have reversed elements, and this will avoid overwriting the second half of the array.
 
 ## Part 2
 I have chosen the command `grep`.
-All the information I am using is from the following website, [https://docs.oracle.com/cd/E19253-01/806-7612/filesearch-99633/index.html](https://docs.oracle.com/cd/E19253-01/806-7612/filesearch-99633/index.html).
+All the information I am using are from the following websites, [https://docs.oracle.com/cd/E19253-01/806-7612/filesearch-99633/index.html](https://docs.oracle.com/cd/E19253-01/806-7612/filesearch-99633/index.html), and [https://phoenixnap.com/kb/grep-command-linux-unix-examples](https://phoenixnap.com/kb/grep-command-linux-unix-examples).
 
 1. Option 1:
 Example 1:
@@ -1023,23 +1030,45 @@ This command uses `grep` with metacharacters in order to search for lines that d
 4. Option 4:
 Example 1:
 ```
-(base) tuyihkj31798euoij831:biomed prajitrajkumar$ grep "physicians m" *
-1471-2407-2-3.txt:        includes interviews with patients and physicians may
-1472-684X-1-5.txt:        physicians must also have a broad conceptualization of
-1472-684X-1-5.txt:          Many physicians misperceive that respiratory
-1472-684X-1-5.txt:          physicians must remember that opioids may accumulate and
-1472-684X-2-1.txt:        Likewise, physicians may also lack the skill to
-1472-6874-2-8.txt:          fertility. Referring physicians made the diagnosis of
-1472-6882-1-7.txt:          Subjects and their prescribing physicians made all
-1472-6963-3-13.txt:        events and found that physicians misestimate absolute risk.
-rr37.txt:          physicians maintained a registry of persons aged 18-50
+(base) tuyihkj31798euoij831:biomed prajitrajkumar$ grep -L "gene" *
+1468-6708-3-1.txt
+1471-2172-2-9.txt
+1471-2202-4-12.txt
+1471-2202-4-17.txt
+1471-2210-2-6.txt
+1471-230X-1-6.txt
+1471-2334-1-21.txt
+1471-2334-2-27.txt
+1471-2377-2-6.txt
+1471-2407-1-13.txt
+1471-2407-2-22.txt
+1471-2407-2-3.txt
+1471-2431-2-11.txt
+1471-2431-3-5.txt
+1471-2458-1-9.txt
+1471-2466-1-1.txt
+1471-2490-3-2.txt
+1471-5945-2-13.txt
+1472-6955-2-1.txt
+1472-6963-3-1.txt
+1476-5918-1-2.txt
+ar149.txt
+bcr618.txt
+cc1476.txt
+cc1477.txt
+cc1843.txt
+cc1852.txt
+cc2167.txt
+cc2358.txt
+cc367.txt
+cc991.txt
+cvm-2-4-187.txt
 ```
-This command uses `grep` with `*` to search through groups of files, which can be useful for an explicit mass search of files.
+This command uses `grep` with `-L` and `*` to search through files for files not containing the word `"gene"`, which is useful for filtering out certain files not containing text on genetic information.
 
 Example 2:
 ```
-(base) tuyihkj31798euoij831:911report prajitrajkumar$ grep "publicly dec" *
-chapter-1.txt:    He was, and is, right. But the conflict did not begin on 9/11. It had been publicly declared years earlier, most notably in a declaration faxed early in 1998 to an Arabic-language newspaper in London. Few Americans had noticed it. The fax had been sent from thousands of miles away by the followers of a Saudi exile gathered in one of the most remote and impoverished countries on earth.
+(base) tuyihkj31798euoij831:biomed prajitrajkumar$ grep -L "the" *
 (base) tuyihkj31798euoij831:911report prajitrajkumar$ 
 ```
-This is another instance of a command using `grep` with `*` to search through groups of files, which can once again be useful for an explicit mass search of files.
+This is another instance of a command using `grep` with `L` and `*` to search through groups of files not containing certain words. In this case, it can again be used for filtering and shows that no files exist that do not contain the word `"the"`.
